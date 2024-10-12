@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.4
+
+### Patch Changes
+
+- 8537f9f: fix import
+
 ## 0.0.3
 
 ### Patch Changes
