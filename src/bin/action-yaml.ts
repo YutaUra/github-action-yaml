@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { mkdir, watch, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
 import type { GithubAction } from "@schemastore/github-action";
@@ -12,10 +13,15 @@ program
   .name("generate")
   .description("generate typescript code from action.yaml file")
   .argument("<file>", "output typescript file")
-  .option("-i, --input <file>", "input action.yaml file", "action.yml")
+  .option("-i, --input <file>", "input action.yaml file", "action.yaml")
   .option("--watch", "watch mode", false)
   .action(async (file: string, options: { input: string; watch: boolean }) => {
-    const yaml = parse(await universalReadFile(options.input)) as GithubAction;
+    const inputFile = existsSync(options.input)
+      ? options.input
+      : existsSync("action.yaml")
+        ? "action.yaml"
+        : "action.yml";
+    const yaml = parse(await universalReadFile(inputFile)) as GithubAction;
 
     await mkdir(dirname(file), { recursive: true });
     await writeFile(file, actionToType(yaml));
@@ -24,10 +30,8 @@ program
       return;
     }
 
-    for await (const _ of watch(options.input)) {
-      const yaml = parse(
-        await universalReadFile(options.input),
-      ) as GithubAction;
+    for await (const _ of watch(inputFile)) {
+      const yaml = parse(await universalReadFile(inputFile)) as GithubAction;
 
       await mkdir(dirname(file), { recursive: true });
       await writeFile(file, actionToType(yaml));
