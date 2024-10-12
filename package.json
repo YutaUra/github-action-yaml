@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "prepublish": "pnpm run build"
   },
   "bin": {
     "github-action-yaml": "./dist/bin/action-yaml.js"
