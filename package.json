@@ -1,0 +1,9 @@
+{
+  "name": "github-action-yaml",
+  "version": "0.0.0",
+  "scripts": {},
+  "keywords": [],
+  "author": "YutaUra",
+  "license": "ISC",
+  "packageManager": "pnpm@9.12.1"
+}
