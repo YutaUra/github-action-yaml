@@ -1,9 +1,37 @@
 {
   "name": "github-action-yaml",
   "version": "0.0.0",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "build": "tsup"
+  },
+  "bin": {
+    "github-action-yaml": "./dist/bin/action-yaml.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "keywords": [],
   "author": "YutaUra",
   "license": "ISC",
-  "packageManager": "pnpm@9.12.1"
+  "packageManager": "pnpm@9.12.1",
+  "devDependencies": {
+    "@actions/core": "1.11.1",
+    "@biomejs/biome": "1.9.3",
+    "@tsconfig/strictest": "2.0.5",
+    "@types/node": "22.7.5",
+    "rimraf": "6.0.1",
+    "rolldown": "0.13.2",
+    "tsup": "8.3.0",
+    "tsx": "4.19.1",
+    "typescript": "5.6.3"
+  },
+  "dependencies": {
+    "@schemastore/github-action": "0.0.5",
+    "commander": "12.1.0",
+    "yaml": "2.5.1"
+  },
+  "peerDependencies": {
+    "@actions/core": "1.11.1"
+  }
 }
