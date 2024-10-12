@@ -64,7 +64,7 @@ export const dumpOutputs = (outputs: Partial<Outputs>) => {
 
   return `\
 // @ts-ignore
-import * as core from "@github/core";
+import * as core from "@actions/core";
 import { Prettify, InputOptions, InputsValues } from "github-action-yaml"
 
 export const raw = ${JSON.stringify(action, null, 2)} as const;
