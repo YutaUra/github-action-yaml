@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.7
+
+### Patch Changes
+
+- b14d324: Update all non-major dependencies
+
 ## 0.0.6
 
 ### Patch Changes
