@@ -16,13 +16,13 @@
   "keywords": [],
   "author": "YutaUra",
   "license": "ISC",
-  "packageManager": "pnpm@9.15.1",
+  "packageManager": "pnpm@9.15.2",
   "devDependencies": {
     "@actions/core": "1.11.1",
     "@biomejs/biome": "1.9.4",
     "@changesets/cli": "2.27.11",
     "@tsconfig/strictest": "2.0.5",
-    "@types/node": "22.10.2",
+    "@types/node": "22.10.4",
     "rimraf": "6.0.1",
     "tsup": "8.3.5",
     "tsx": "4.19.2",
@@ -31,7 +31,7 @@
   "dependencies": {
     "@schemastore/github-action": "0.0.5",
     "commander": "12.1.0",
-    "yaml": "2.6.1"
+    "yaml": "2.7.0"
   },
   "peerDependencies": {
     "@actions/core": "1.11.1"
