@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "YutaUra",
   "license": "ISC",
-  "packageManager": "pnpm@9.15.9",
+  "packageManager": "pnpm@10.6.2",
   "devDependencies": {
     "@actions/core": "1.11.1",
     "@biomejs/biome": "1.9.4",
