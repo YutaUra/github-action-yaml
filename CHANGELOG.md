@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.13
+
+### Patch Changes
+
+- 237217e: Update pnpm to v10
+
 ## 0.0.12
 
 ### Patch Changes
