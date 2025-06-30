@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.15
+
+### Patch Changes
+
+- 72e3246: Update pnpm to v10.12.4
+
 ## 0.0.14
 
 ### Patch Changes
