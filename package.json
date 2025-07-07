@@ -1,6 +1,6 @@
 {
   "name": "github-action-yaml",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "type": "module",
   "scripts": {
     "build": "tsup",
@@ -12,7 +12,10 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "keywords": [],
   "author": "YutaUra",
   "license": "ISC",
