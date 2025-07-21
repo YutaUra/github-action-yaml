@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.18
+
+### Patch Changes
+
+- 3229965: Update all non-major dependencies
+
 ## 0.0.17
 
 ### Patch Changes
