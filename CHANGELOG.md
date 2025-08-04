@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.20
+
+### Patch Changes
+
+- 923c74a: Update all non-major dependencies
+
 ## 0.0.19
 
 ### Patch Changes
