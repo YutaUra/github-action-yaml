@@ -31,7 +31,7 @@
   "dependencies": {
     "@schemastore/github-action": "0.0.6",
     "commander": "12.1.0",
-    "yaml": "2.8.0"
+    "yaml": "2.8.1"
   },
   "peerDependencies": {
     "@actions/core": "1.11.1"
