@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.21
+
+### Patch Changes
+
+- 88a07b0: Update dependency yaml to v2.8.1
+
 ## 0.0.20
 
 ### Patch Changes
