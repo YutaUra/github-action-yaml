@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.24
+
+### Patch Changes
+
+- 443fabc: Update all non-major dependencies
+
 ## 0.0.23
 
 ### Patch Changes
