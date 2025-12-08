@@ -25,13 +25,13 @@
     "@types/node": "22.19.1",
     "rimraf": "6.1.2",
     "tsup": "8.5.1",
-    "tsx": "4.20.6",
+    "tsx": "4.21.0",
     "typescript": "5.9.3"
   },
   "dependencies": {
     "@schemastore/github-action": "0.0.6",
     "commander": "12.1.0",
-    "yaml": "2.8.1"
+    "yaml": "2.8.2"
   },
   "peerDependencies": {
     "@actions/core": "1.11.1"
