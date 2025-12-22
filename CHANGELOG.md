@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.37
+
+### Patch Changes
+
+- b6100ad: Update all non-major dependencies
+
 ## 0.0.36
 
 ### Patch Changes
