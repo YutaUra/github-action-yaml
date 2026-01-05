@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.39
+
+### Patch Changes
+
+- ae4d312: Update all non-major dependencies
+
 ## 0.0.38
 
 ### Patch Changes
