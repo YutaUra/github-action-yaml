@@ -22,7 +22,7 @@
     "@biomejs/biome": "1.9.4",
     "@changesets/cli": "2.29.8",
     "@tsconfig/strictest": "2.0.8",
-    "@types/node": "22.19.7",
+    "@types/node": "22.19.9",
     "rimraf": "6.1.2",
     "tsup": "8.5.1",
     "tsx": "4.21.0",
