@@ -1,5 +1,12 @@
 # github-action-yaml
 
+## 0.0.45
+
+### Patch Changes
+
+- 4244f16: Update all non-major dependencies
+- d580659: Lock file maintenance
+
 ## 0.0.44
 
 ### Patch Changes
