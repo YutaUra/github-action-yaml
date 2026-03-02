@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.47
+
+### Patch Changes
+
+- 116a964: Update all non-major dependencies
+
 ## 0.0.46
 
 ### Patch Changes
