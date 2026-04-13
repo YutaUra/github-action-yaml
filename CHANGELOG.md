@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.53
+
+### Patch Changes
+
+- 183c215: Lock file maintenance
+
 ## 0.0.52
 
 ### Patch Changes
