@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@schemastore/github-action':
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 1.0.3
+        version: 1.0.3
       commander:
         specifier: 12.1.0
         version: 12.1.0
@@ -514,8 +514,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@schemastore/github-action@0.0.6':
-    resolution: {integrity: sha512-493EZr41jHt1hQm3sUX6s7CiYpgmQ/6kVMe7w4Jqv1vI4R+HbM+qnmGYcYhmKY2o54G0rbw3vsSXqrGLAk3V3Q==}
+  '@schemastore/github-action@1.0.3':
+    resolution: {integrity: sha512-X41FGReGQmWI4iK6ofVPoUymPCERsrFMgSbnMwHVl2urITKwGC7DuG5JxdIszVdyUemf/wj788JBLEWomjgM8g==}
 
   '@tsconfig/strictest@2.0.8':
     resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
@@ -1473,7 +1473,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.60.2':
     optional: true
 
-  '@schemastore/github-action@0.0.6': {}
+  '@schemastore/github-action@1.0.3': {}
 
   '@tsconfig/strictest@2.0.8': {}
 
