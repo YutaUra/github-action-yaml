@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.59
+
+### Patch Changes
+
+- 011c5b9: Update all non-major npm dependencies
+
 ## 0.0.58
 
 ### Patch Changes
