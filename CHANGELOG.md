@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.60
+
+### Patch Changes
+
+- 34f493d: Update dependency tsx to v4.23.12
+
 ## 0.0.59
 
 ### Patch Changes
