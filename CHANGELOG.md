@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.62
+
+### Patch Changes
+
+- f5f4c61: Update dependency @types/node to v22.20.2
+
 ## 0.0.61
 
 ### Patch Changes
