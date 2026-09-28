@@ -32,12 +32,12 @@ jobs:
       - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3 # v4.9.1
         with:
           distribution: "temurin"
-          java-version: "17.0.20+8"
+          java-version: "17.0.20+101"
 
       - run: pnpm install
       - run: pnpm exec biome check --fix
 
-      - uses: int128/update-generated-files-action@835eef6e15a044354d9f4b403ad83a0fabe46b0e # v2.113.0
+      - uses: int128/update-generated-files-action@1d6d8fac356eabbd925f4c3cab43d871bab249cd # v2.114.0
         if: always()
         with:
           token: ${{ steps.app-token.outputs.token }}
