@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.64
+
+### Patch Changes
+
+- cf490ca: Update all non-major npm dependencies
+
 ## 0.0.63
 
 ### Patch Changes
