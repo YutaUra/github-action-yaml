@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.65
+
+### Patch Changes
+
+- 702a29d: Update pnpm to v10.34.7
+
 ## 0.0.64
 
 ### Patch Changes
