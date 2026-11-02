@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.66
+
+### Patch Changes
+
+- d0c268b: Update pnpm to v10.34.9
+
 ## 0.0.65
 
 ### Patch Changes
