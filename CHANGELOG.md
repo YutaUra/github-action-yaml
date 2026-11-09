@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.67
+
+### Patch Changes
+
+- 0eb7f11: Update dependency rimraf to v6.1.4
+
 ## 0.0.66
 
 ### Patch Changes
