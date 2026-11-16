@@ -1,5 +1,11 @@
 # github-action-yaml
 
+## 0.0.68
+
+### Patch Changes
+
+- 07e30d1: Update dependency @tsconfig/strictest to v2.0.9
+
 ## 0.0.67
 
 ### Patch Changes
