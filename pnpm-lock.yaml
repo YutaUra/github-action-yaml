@@ -28,8 +28,8 @@ importers:
         specifier: 2.31.1
         version: 2.31.1(@types/node@22.20.5)
       '@tsconfig/strictest':
-        specifier: 2.0.8
-        version: 2.0.8
+        specifier: 2.0.9
+        version: 2.0.9
       '@types/node':
         specifier: 22.20.5
         version: 22.20.5
@@ -676,8 +676,8 @@ packages:
   '@schemastore/github-action@0.0.6':
     resolution: {integrity: sha512-493EZr41jHt1hQm3sUX6s7CiYpgmQ/6kVMe7w4Jqv1vI4R+HbM+qnmGYcYhmKY2o54G0rbw3vsSXqrGLAk3V3Q==}
 
-  '@tsconfig/strictest@2.0.8':
-    resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
+  '@tsconfig/strictest@2.0.9':
+    resolution: {integrity: sha512-CbwIySRXoGapLZYXqQHF15cg0wQImJa25Ynmubb7816vnHqTdQrmQlSbZxkJrrBusHLbF1kFbNVn8XtxmQ3EpQ==}
 
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
@@ -1713,7 +1713,7 @@ snapshots:
 
   '@schemastore/github-action@0.0.6': {}
 
-  '@tsconfig/strictest@2.0.8': {}
+  '@tsconfig/strictest@2.0.9': {}
 
   '@types/estree@1.0.8': {}
 
